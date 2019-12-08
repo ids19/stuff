@@ -40,16 +40,26 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(ages[i]);
             }
-             */
+             
 
-            SayHi();
+            Console.WriteLine(Greet("Fuck", "ids"));
+            */
+
+            bool flag = true;
+
+            while(flag)
+            {
+                Console.Write("Enter false to stop: ");
+                flag = Convert.ToBoolean(Console.ReadLine());
+            }
 
             Console.ReadLine();
         }
-
-        static void SayHi()
+        /*
+        static string Greet(string curse, string name)
         {
-            Console.WriteLine("HI!");
+         return (curse + " you " + name);
         }
+        */
     }
 }
