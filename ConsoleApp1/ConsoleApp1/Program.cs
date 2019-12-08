@@ -30,7 +30,7 @@ namespace ConsoleApp1
             Console.Write("Enter num 2: ");
             int num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
-            */
+            
 
             //#################################
 
@@ -40,9 +40,16 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(ages[i]);
             }
-                
+             */
+
+            SayHi();
 
             Console.ReadLine();
+        }
+
+        static void SayHi()
+        {
+            Console.WriteLine("HI!");
         }
     }
 }
