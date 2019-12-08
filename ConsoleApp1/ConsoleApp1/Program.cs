@@ -34,6 +34,14 @@ namespace ConsoleApp1
 
             //#################################
 
+            int[] ages = {10, 22, 124, 21, 56, 3 };
+
+            for (int i = 0; i < ages.Length; i++)
+            {
+                Console.WriteLine(ages[i]);
+            }
+                
+
             Console.ReadLine();
         }
     }
